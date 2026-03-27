@@ -13,10 +13,9 @@ title                    : "Quang Dao's Homepage"
 title_separator          : "-"
 name                     : &name "Quang Dao"
 description              : &description "I am an junior undergraduate student at Rose-Hulman Institute of Technology."   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://quangdao.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "minhquang0701/quangdao.github.io"
+url                      : https://minhquang0701.github.io # Must match the site you open in the browser (fixes CSS/assets)
+baseurl                  : "" # user site (repo minhquang0701.github.io); use "/repo-name" only for project pages
+repository               : "minhquang0701/minhquang0701.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -51,7 +50,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "minhquang0701"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
