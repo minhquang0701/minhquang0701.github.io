@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello, I'm Quang Dao"
+title: "About me - Quang Dao"
 author_profile: true
 redirect_from: 
   - /about/
