@@ -10,16 +10,16 @@
 main:
     
   - title: "CV"
-    url: /cv/
+    url: /assets/Back_Up_CV.pdf
 
-  - title: "Contact"
-    url: /contact/
-  
   - title: "Projects"
     url: /projects/
 
+  - title: "Blog"
+    url: /blog/
+
   - title: "Contact"
     url: /contact/
 
-  - title: "Blog"
-    url: /blog/
+
+
