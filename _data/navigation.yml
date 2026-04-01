@@ -11,13 +11,7 @@ main:
     
   - title: "CV"
     url: /assets/Back_Up_CV.pdf
-
-  - title: "Projects"
-    url: /projects/
-
-  - title: "Blog"
-    url: /blog/
-
+    
   - title: "Contact"
     url: /contact/
 
