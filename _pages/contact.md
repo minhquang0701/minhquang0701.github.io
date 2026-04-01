@@ -1,15 +1,11 @@
 ---
 permalink: /contact/
-title: "Contact - Quang Dao"
+title: "Contact"
 author_profile: true
 ---
 
-I am always happy to connect about research collaborations, internships, and engineering opportunities in NLP, LLM systems, and agent workflows.
+I’m best reached by email. I’m always open to connecting with people, exchanging ideas, and collaborating.
 
 - **Email:** [daoqm@rose-hulman.edu](mailto:daoqm@rose-hulman.edu)
 - **GitHub:** [github.com/minhquang0701](https://github.com/your-username)
-- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-
-If you prefer, you can also reach out through the form below:
-
-<iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" width="100%" height="860" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+- **LinkedIn:** [linkedin.com/in/quang-dao-minh](https://www.linkedin.com/in/quang-dao-minh/)
