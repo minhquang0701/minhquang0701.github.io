@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Quang Dao's Homepage"
 title_separator          : "-"
 name                     : &name "Quang Dao"
-description              : &description "I’m a computer science undergraduate at Rose-Hulman Institute of Technology. My research focuses on NLP, language models, and agent systems."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "I’m a senior studying computer science at Rose-Hulman Institute of Technology. My research focuses on NLP, language models, and agent systems."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://minhquang0701.github.io # Must match the site you open in the browser (fixes CSS/assets)
 baseurl                  : "" # user site (repo minhquang0701.github.io); use "/repo-name" only for project pages
 repository               : "minhquang0701/minhquang0701.github.io"
@@ -22,10 +22,10 @@ repository               : "minhquang0701/minhquang0701.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Potrait.jpg" # file must live in /images/ (see author-profile.html)
+  avatar           : "" # Leave blank to hide the profile photo
   name             : "Quang Dao"
   pronouns         : # example: "she/her"  
-  bio              : "Undergraduate student in Computer Science"
+  bio              : "Senior studying Computer Science"
   location         : "Terre Haute, IN"
   employer         : 
   uri              : # URL
