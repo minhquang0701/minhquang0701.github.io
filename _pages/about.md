@@ -1,81 +1,83 @@
 ---
 permalink: /
-title: "About me - Quang Dao"
+title: "About me — Quang Dao"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a junior (2023 - now) undegraduate student in Computer Science at Rose-Hulman Institute of Technology.  
+I’m a computer science undergraduate at Rose-Hulman Institute of Technology. My research focuses on NLP, language models, and agent systems.
 
-My research interests broadly lie in NLP, LLM, and agent systems. I am especially interested in how LLM reason, collaborate, and solve complex tasks. My current interests include:  
-- Multi-Agent systems: improving how LLM-based agents plan, use tools, collaborate, and handle multi-step tasks.  
-- Latent communication: exploring whether agents/LLM can communicate through internal representations or latent space instead of relying only on long natural-language exchanges.  
-- Memory in LLMs: studying how models retain, select, and manage information over long interactions, including KV-cache optimization and memory-aware mechanisms.  
-- Training and inference methods: understanding how techniques such as steering vectors, calibration, and other intervention methods can better control model behavior during training or inference.  
+My current interests include:
 
-Previously, I was an undergraduate research intern in the SROP program at the University of Notre Dame, working under Professor Meng Jiang and mentored by Hy Dang on language model agent systems. I also worked under Dr. Xiangliang and Haomin on Hands-On Data Science for Chemists, an open project focused on the use of data science, machine learning, and large language models in chemistry.  
+- **Multi-agent systems:** How LLM-based agents plan, use tools, and coordinate across multi-step tasks.
+- **Latent communication:** Whether agents can exchange internal representations instead of communicating only through natural language.
+- **Memory in LLMs:** How models and agents retain, select, and manage information over long interactions, including KV-cache optimization.
+- **Training and inference methods:** Steering vectors, calibration, and other interventions to better understand and guide model behavior.
 
-Before that, I was a machine learning intern at Rose-Hulman Ventures, where I worked on AI for surgical video analysis, and a software engineer intern at TAPTAP, where I built internal analytics and software tools.  
+In spring 2026, I joined the Georgia Tech Research Institute (GTRI), working with Kenneth Eaton on memory for long-horizon LLM agents. That summer, I was a research intern in Zhuang Liu’s lab at Princeton University, working on multi-agent systems for scientific reasoning and research feedback.
 
-News
-======
+Previously, I was an undergraduate research intern in Notre Dame’s SROP program, advised by Dr. Meng Jiang and mentored by Hy Dang, where I worked on tool use and multi-agent systems.
 
-<div style="display: flex; flex-direction: column; gap: 0.9rem;">
-  <div style="display: flex; align-items: flex-start; gap: 1.2rem;">
-    <div style="min-width: 90px; font-weight: 600; white-space: nowrap;">Jul, 2025</div>
-    <div style="line-height: 1.6;">
-      Presented at the <strong>Workshop Symposium at the University of Notre Dame</strong>, sharing work from my summer research.
+## News
+
+**September 2026**<br>
+*Weighted Memory Tree: Remembering What Matters for Long-Horizon LLM Agents* was accepted to the REALM Workshop at EMNLP 2026.
+
+**August 2026**<br>
+Our OpenTools paper, *Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents*, was accepted to the System Demonstrations track at EMNLP 2026.
+
+**Summer 2026**<br>
+Presented our work on Weighted Memory Tree at GTRI.
+
+**Summer 2026**<br>
+Joined Zhuang Liu’s lab at Princeton University as a summer research intern.
+
+**Spring 2026**<br>
+Joined GTRI as a research intern, working on memory for long-horizon LLM agents.
+
+**July 2025**<br>
+Presented my summer research at Notre Dame’s Workshop Symposium.
+
+**May 2025**<br>
+Joined Notre Dame’s SROP program to work on language model agent systems with Dr. Meng Jiang and Hy Dang.
+
+## Publications
+
+<article class="publication-card" aria-labelledby="wmt-title">
+  <div class="publication-card__visual">
+    <a href="{{ '/assets/archi_WMT.png' | relative_url }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/archi_WMT.png' | relative_url }}" alt="Weighted Memory Tree architecture showing its status-driven memory workflow" loading="lazy">
+    </a>
+    <div class="publication-card__venue">REALM Workshop<br>EMNLP 2026</div>
+  </div>
+  <div class="publication-card__details">
+    <h3 id="wmt-title" class="publication-card__title">
+      <a href="{{ '/assets/WMT.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Weighted Memory Tree: Remembering What Matters for Long-Horizon LLM Agents</a>
+    </h3>
+    <p class="publication-card__authors">Quang Dao, Purvi Kathalkar, Kenneth Eaton</p>
+    <div class="publication-card__links">
+      <a href="{{ '/assets/WMT.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Weighted Memory Tree paper">View Paper</a>
     </div>
   </div>
-  <div style="display: flex; align-items: flex-start; gap: 1.2rem;">
-    <div style="min-width: 90px; font-weight: 600; white-space: nowrap;">May, 2025</div>
-    <div style="line-height: 1.6;">
-      Joined the <strong>SROP program at the University of Notre Dame</strong> and worked on research in LLM agent systems.
+</article>
+
+<article class="publication-card" aria-labelledby="opentools-title">
+  <div class="publication-card__visual">
+    <a href="{{ '/assets/architecture.png' | relative_url }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/architecture.png' | relative_url }}" alt="OpenTools architecture for tool discovery, evaluation, contribution, and use" loading="lazy">
+    </a>
+    <div class="publication-card__venue">System Demonstrations<br>EMNLP 2026</div>
+  </div>
+  <div class="publication-card__details">
+    <h3 id="opentools-title" class="publication-card__title">
+      <a href="{{ '/assets/OpenTools.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents</a>
+    </h3>
+    <p class="publication-card__authors">Hy Dang, Quang Dao, Dr. Meng Jiang</p>
+    <div class="publication-card__links">
+      <a href="{{ '/assets/OpenTools.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View OpenTools paper">View Paper</a>
+      <a href="https://github.com/hydang99/opentools" target="_blank" rel="noopener noreferrer">Project Page</a>
     </div>
   </div>
-  <div style="display: flex; align-items: flex-start; gap: 1.2rem;">
-    <div style="min-width: 90px; font-weight: 600; white-space: nowrap;">Dec, 2024</div>
-    <div style="line-height: 1.6;">
-      Accepted an offer from <strong>Rose-Hulman Ventures</strong> for a <strong>Machine Learning Engineer Internship</strong>.
-    </div>
-  </div>
-  <div style="display: flex; align-items: flex-start; gap: 1.2rem;">
-    <div style="min-width: 90px; font-weight: 600; white-space: nowrap;">Jun, 2024</div>
-    <div style="line-height: 1.6;">
-      Joined <strong>TAPTAP</strong> as a <strong>Software Engineer Intern</strong>, building internal analytics and software tools.
-    </div>
-  </div>
-</div>
-  
-
-<br>
-
-Publication
-======
-
-
-<hr style="border:none;border-top:1.5px solid #e0e0e0;margin:2rem 0 1.5rem 0;">
-
-<div style="display:flex;align-items:flex-start;gap:24px;">
-  <div style="width:170px;text-align:center;flex-shrink:0;">
-    <img src="../assets/architecture.png" width="150" style="display:block;margin:0 auto;">
-    <div style="display:inline-block;margin-top:12px;background-color:#b7efc5;color:#1f3d2b;font-weight:700;padding:10px 18px;border-radius:6px;font-size:0.95rem;">Under Review 2026</div>
-  </div>
-
-  <div style="flex:1;">
-    <div style="font-size:1.45rem;font-weight:700;line-height:1.2;margin-bottom:10px;">
-      <div target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:#1565c0;">Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents</div>
-    </div>
-    <div style="line-height:1.7;margin-bottom:16px;">
-      Hy Dang, Quang Dao, Meng Jiang
-    </div>
-    <div>
-      <a href="../assets/119_Open_Reliable_and_Collecti.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:8px 16px;border:1.5px solid #2f6fed;border-radius:999px;color:#2f6fed;text-decoration:none;font-weight:500;margin-right:10px;">View Paper</a>
-      <a href="https://github.com/hydang99/opentools" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:8px 16px;border:1.5px solid #2f6fed;border-radius:999px;color:#2f6fed;text-decoration:none;font-weight:500;">Project Page</a>
-    </div>
-  </div>
-</div>
-
-<hr style="border:none;border-top:1.5px solid #e0e0e0;margin:1.5rem 0 2rem 0;">
+</article>
